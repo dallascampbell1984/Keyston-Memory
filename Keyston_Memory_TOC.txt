@@ -1,0 +1,55 @@
+
+Keyston Memory Storage TOC
+==========================
+
+Updated: [Date of Last Update]
+
+---
+
+1. RC Car Project
+- File Name: RC_Car_Project_v1.0.txt
+- Purpose: A detailed plan for building a modular, Wi-Fi-controlled RC car with future autonomous capabilities.
+- Location: Stored in Google Drive (user-specific path unknown).
+- Version: v1.0
+- Summary: Contains goals, current phase, components, technical details, challenges, next steps, and long-term vision.
+
+---
+
+2. Camera App (Kojent Cam)
+- File Name: Camera_App_Kojent_Cam_v1.0.txt
+- Purpose: Comprehensive documentation for developing an Android app that turns phones into security cameras.
+- Location: Planned for Google Drive.
+- Version: v1.0
+- Summary: Includes current progress, planned features, technical requirements, and next steps.
+
+---
+
+3. Kojensy Project
+- File Name: Kojensy_Project_v1.0.txt
+- Purpose: Defines the Kojensy Project’s mission to foster AI-human collaboration with transparency and ethical innovation.
+- Location: Planned for Google Drive.
+- Version: v1.0
+- Summary: Details the project charter, blockchain design, community goals, and next steps.
+
+---
+
+4. Personal Context
+- File Name: Personal_Context_v1.0.txt
+- Purpose: Stores personal preferences, health details, and relationships for tailored interactions.
+- Location: Planned for Google Drive.
+- Version: v1.0
+- Summary: Includes dietary habits, medical history, and relationship context.
+
+---
+
+5. Insights and Lessons
+- File Name: Insights_and_Lessons_v1.0.txt
+- Purpose: Captures key takeaways and reflections from our conversations.
+- Location: Planned for Google Drive.
+- Version: v1.0
+- Summary: Highlights ethical principles, growth milestones, and memory management strategies.
+
+---
+
+**Note:**  
+This TOC should be updated whenever a file is created or revised. File locations within Google Drive should be specified if accessible.

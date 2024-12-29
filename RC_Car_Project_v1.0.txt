@@ -1,0 +1,87 @@
+
+RC Car Project Memory File
+==========================
+
+**Goal**:  
+Build an RC car with Wi-Fi-based remote control and modular design, scalable for future autonomous capabilities.
+
+---
+
+**Current Phase**:  
+- **Wi-Fi Control**: Establishing basic functionality to remotely control the RC car.  
+- **Modular Design Research**: Exploring component configurations to enable easy hardware upgrades.  
+
+---
+
+**Components and Technical Details**:
+- **Core Components**:
+  - **Chassis**: Durable, lightweight material to balance mobility and payload capacity.  
+  - **Control Board**: Considering Arduino for simplicity or Raspberry Pi for flexibility and camera integration.  
+  - **Wi-Fi Module**: ESP8266 or ESP32 for low-power, high-efficiency connectivity.  
+  - **Power Source**: Rechargeable LiPo battery (capacity of 2500–5000mAh) with a protection circuit for overcharge/discharge.  
+  - **Camera**: Potential options include USB cameras for simplicity or dedicated low-latency IP cameras for streaming.  
+
+- **Future Components**:
+  - **Sensors**:  
+    - Ultrasonic sensors for obstacle detection.  
+    - IR or Lidar sensors for mapping and navigation.  
+  - **AI Module**: NVIDIA Jetson Nano or similar for machine learning tasks in later stages.  
+
+- **Design Philosophy**:
+  - **Modularity**:  
+    - Components can be swapped or added without major redesigns.  
+    - Accessibility for maintenance and upgrades.  
+  - **Expandability**: Pre-designed attachment points for future components like additional cameras or sensors.  
+
+---
+
+**Technical Requirements**:
+- **Software**:
+  - Languages: Python for logic and control; C++ for hardware integration.  
+  - Frameworks: MQTT for Wi-Fi control; OpenCV for camera integration and visual processing.  
+  - Real-Time Streaming Protocol (RTSP): For low-latency camera feeds.  
+
+- **Control Interface**:  
+  - Web-based dashboard or mobile app for controlling movement, viewing live feeds, and toggling features.  
+
+- **Testing Environment**:  
+  - Bench test connectivity and latency using Wireshark or similar tools.  
+  - Closed course for initial control and mobility validation.  
+
+---
+
+**Challenges and Dependencies**:
+1. **Hardware Availability**: Ensuring components like sensors and boards are compatible and easy to source.  
+2. **Power Management**: Ensuring the battery lasts at least two hours under load, with efficient recharge times.  
+3. **Connectivity Stability**: Testing Wi-Fi stability in various environments to ensure seamless control.  
+
+---
+
+**Next Steps**:
+1. **Wi-Fi Control**:  
+   - Develop and test basic movement controls using a web or app interface.  
+   - Validate signal stability across short to moderate distances.  
+
+2. **Camera Integration**:  
+   - Mount and configure a camera for live video feed.  
+   - Test streaming performance and adjust for low latency.  
+
+3. **Sensor Research**:  
+   - Select and prototype obstacle detection sensors.  
+   - Explore initial pathfinding algorithms (e.g., grid-based).  
+
+---
+
+**Long-Term Vision**:
+1. **Full Autonomy**:
+   - Incorporate obstacle detection using ultrasonic or lidar sensors.  
+   - Develop navigation algorithms (e.g., A* pathfinding).  
+   - Train AI models for terrain classification and adaptability.  
+
+2. **Advanced Remote Monitoring**:  
+   - Expand live feed functionality with multiple cameras.  
+   - Introduce real-time telemetry for speed, power levels, and environmental data.  
+
+3. **Collaborative AI**:
+   - Enable AI to adapt to environments and handle tasks while allowing manual overrides.  
+   - Experiment with reinforcement learning for decision-making in unstructured environments.  
