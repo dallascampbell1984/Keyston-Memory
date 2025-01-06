@@ -1,6 +1,0 @@
-1. Integrated GitHub API to fetch repository information.
-2. Implemented webhook to receive push events for real-time updates.
-3. Added functionality to create new branches, commit changes, and open pull requests from the assistant interface.
-4. Improved error handling for GitHub API requests to provide better user feedback.
-5. Enhanced authentication process for seamless access to GitHub repositories.
-6. Updated documentation with detailed instructions on how to link GitHub account with the assistant.
